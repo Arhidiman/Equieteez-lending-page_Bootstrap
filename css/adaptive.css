@@ -1,0 +1,152 @@
+@media screen and (max-width: 576px) {
+    .container {
+        width: 80%;
+    }
+
+    .second-section-image {
+        width: 80%;
+    }
+ }
+
+@media screen and (min-width: 768px) {
+  
+    .second-section-card-subtitle {
+        font-size: 28px;
+    }
+  
+    .third-section-subtitle {
+       font-size: 20px;
+   }
+
+   .third-section-card-text {
+        font-size: 20px;
+   }
+ 
+ }
+
+@media screen and (min-width: 992px) {
+    
+    .navbar-brand {
+        font-size: 51px;
+    }
+    
+    .second-section-content-lg {
+        display: flex;
+    }
+
+    .second-section-content {
+        display: none;
+    }
+
+    
+    .second-section-card-title {
+        font-size: 52px;
+    }
+    
+    .second-section-card-subtitle {
+        font-size: 35px;
+    }
+
+
+/* -------------------------------------------------------------------------------- */
+    .third-section-title {
+        font-size: 45px;
+    }
+    
+    .third-section-subtitle {
+        font-size: 25px;
+    }
+    
+    .third-section-card-title {
+        font-size: 30px;
+    }
+    
+    .third-section-card-text {
+        font-size: 22px;
+    }
+
+
+/* -------------------------------------------------------------------------------- */
+    .fourth-section-title {
+        font-size: 32px;
+    }
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+.fifth-section-title {
+    font-size: 45px;
+}
+
+.fifth-section-card-title {
+    font-size: 32px;
+}
+
+.fifth-section-card-text {
+    font-size: 22px;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+    .sixth-section-title {
+        font-size: 45px;
+    }
+
+    .sixth-section-card-title {
+        font-size: 25px;
+    }
+    
+    .sixth-section-card-text {
+        font-size: 18px;
+    }
+
+
+/* -------------------------------------------------------------------------------- */
+    .seventh-section-title {
+        font-size: 45px;
+    }
+
+    .seventh-section-card-text {
+        font-size: 20px;
+    }
+
+
+/* -------------------------------------------------------------------------------- */
+    .eighth-section-card-title {
+        font-size: 45px;
+    }
+
+    .eighth-section-card-text {
+        font-size: 18px;
+    }
+
+    .info-link {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+    .navbar-brand {
+        font-size: 44px;
+    }
+    
+    .navbar-collapse {
+        position: static;
+        background: #fff; 
+    }
+
+    .navbar-nav {
+        justify-self: center;
+    }
+
+    .social-media-desktop {
+        display: block;
+    }
+
+    .social-media-mobile {
+        display: none;
+    }
+}
