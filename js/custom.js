@@ -5,6 +5,7 @@ const headerHeight =  getComputedStyle(document.getElementById('header')).height
 const mobileMenuBackground = document.getElementById('mobile-menu-background')
 
 const buttonSignup = document.getElementById('button-signup');
+const buttonSignupMobile = document.getElementById('button-signup-mobile');
 const buttonAccess = document.getElementById('button-access');
 const buttonNews = document.getElementById('button-news');
 const buttonSend = document.getElementById('button-send');
@@ -36,6 +37,7 @@ mobileMenuButton.onclick = showMobileMenu;
 
 mobileMenuBackground.onclick = hideMobileMenu;
 
+
 buttonSignup.onmouseover = (e)=> {
     isMouseOver = true;
     switchButton(e.target, green, black);
@@ -48,6 +50,28 @@ buttonSignup.onmouseout = (e)=> {
 }
 
 buttonSignup.onmousedown = (e)=> {
+    switchButton(e.target, black, white);
+    setTimeout(()=> {
+        switchButton(e.target, green, black);
+        if (isMouseOver == false) {
+            switchButton(e.target, black, white);
+        }
+    },150)
+}
+
+
+buttonSignupMobile.onmouseover = (e)=> {
+    isMouseOver = true;
+    switchButton(e.target, green, black);
+}
+
+buttonSignupMobile.onmouseout = (e)=> {
+    isMouseOver = false;
+    switchButton(e.target, black, white);  
+    console.log(isMouseOver);
+}
+
+buttonSignupMobile.onmousedown = (e)=> {
     switchButton(e.target, black, white);
     setTimeout(()=> {
         switchButton(e.target, green, black);
